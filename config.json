@@ -1,0 +1,9 @@
+{
+  "DISCORD_TOKEN" : "token",
+  "OWNER" : "owner",
+  "DATABASE_USER" : "",
+  "DATABASE_PASSWORD" : "",
+  "DATABASE_HOST" : "localhost",
+  "DATABASE_COLLECTION" : "",
+  "DBL_TOKEN" : ""
+}

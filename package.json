@@ -2,13 +2,15 @@
   "name": "BattleAdventureBot",
   "packageManager": "yarn@3.2.1",
   "scripts": {
-    "start" : "tsc && node dist/src/index.js"
+    "start": "tsc && node dist/src/index.js"
   },
   "devDependencies": {
     "typescript": "^4.7.4"
   },
   "dependencies": {
     "@sapphire/framework": "^2.5.1",
-    "discord.js": "^13.8.1"
+    "discord.js": "^13.8.1",
+    "sequelize": "^6.21.1",
+    "topgg-autoposter": "^2.0.1"
   }
 }
