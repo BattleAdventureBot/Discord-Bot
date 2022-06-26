@@ -1,4 +1,11 @@
 {
   "name": "BattleAdventureBot",
-  "packageManager": "yarn@3.2.1"
+  "packageManager": "yarn@3.2.1",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@sapphire/framework": "^2.5.1",
+    "discord.js": "^13.8.1"
+  }
 }
