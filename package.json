@@ -1,6 +1,9 @@
 {
   "name": "BattleAdventureBot",
   "packageManager": "yarn@3.2.1",
+  "scripts": {
+    "start" : "tsc && node dist/src/index.js"
+  },
   "devDependencies": {
     "typescript": "^4.7.4"
   },
