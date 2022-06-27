@@ -34,7 +34,7 @@ export function init(sequelize : Sequelize){
             allowNull: false,
             defaultValue: 0
         }
-    }, { sequelize, tableName: "users"});
+    }, { sequelize, tableName: "users", freezeTableName: true});
 }
 
 export default UserInfo;
