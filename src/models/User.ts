@@ -34,7 +34,7 @@ export function init(sequelize : Sequelize){
             allowNull: false,
             defaultValue: 0
         }
-    }, { sequelize, modelName: "user_info" });
+    }, { sequelize, tableName: "users"});
 }
 
 export default UserInfo;
