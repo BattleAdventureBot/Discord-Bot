@@ -4,6 +4,6 @@
   "DATABASE_USER" : "",
   "DATABASE_PASSWORD" : "",
   "DATABASE_HOST" : "localhost",
-  "DATABASE_COLLECTION" : "",
+  "DATABASE_DATABASE" : "",
   "DBL_TOKEN" : ""
 }

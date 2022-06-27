@@ -12,6 +12,7 @@
     "@sapphire/plugin-subcommands": "^2.2.0",
     "@sapphire/utilities": "^3.6.2",
     "discord.js": "^13.8.1",
+    "mariadb": "^3.0.0",
     "sequelize": "^6.21.1",
     "topgg-autoposter": "^2.0.1"
   }
