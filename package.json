@@ -2,7 +2,7 @@
   "name": "BattleAdventureBot",
   "packageManager": "yarn@3.2.1",
   "scripts": {
-    "start": "tsc && node dist/src/index.js"
+    "start": "tsc && node dist/index.js"
   },
   "devDependencies": {
     "typescript": "^4.7.4"
@@ -15,5 +15,10 @@
     "mariadb": "^3.0.0",
     "sequelize": "^6.21.1",
     "topgg-autoposter": "^2.0.1"
-  }
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/BattleAdventureBot/Discord-Bot.git",
+  "author": "\" SDKSSH <sdk_ssh@protonmail.com>",
+  "license": "MIT"
 }

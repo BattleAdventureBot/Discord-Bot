@@ -9,5 +9,5 @@ export interface Config {
 }
 
 export const loadConfig = function(): Config {
-    return require("../../../config.json") as Config;
+    return require("../../config.json") as Config;
 };
