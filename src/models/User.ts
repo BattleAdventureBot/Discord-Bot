@@ -8,6 +8,7 @@ export class UserInfo extends Model {
     public exp! : number;
     public health! : number;
     public strength! : number;
+    public inventoryJson! : string;
 
     public getMaxExp(){
         return 300*(Math.pow(3,this.level)-1);
@@ -56,6 +57,10 @@ export function init(sequelize : Sequelize){
             type: DataTypes.INTEGER,
             allowNull: false,
             defaultValue: 1
+        },
+        inventoryJson: {
+            type: DataTypes.STRING,
+            defaultValue: "{}"
         }
     }, { sequelize, tableName: "users", freezeTableName: true});
 }

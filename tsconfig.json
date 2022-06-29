@@ -15,7 +15,7 @@
     "noEmitOnError": false,
     "moduleResolution": "node",
     "skipLibCheck": true,
-    "target": "es6"
+    "target": "ES6"
   },
   "exclude": ["node_modules", "**/*.spec.ts"]
 }
