@@ -1,9 +1,10 @@
 {
-  "DISCORD_TOKEN" : "OTkxNjAzOTMyNDA3MjY3MzQ5.GPLjaD.6C88ZqOwZH0_iK_-EkseHgnTsWRHOwmCC-uHAI",
+  "DISCORD_TOKEN" : "",
   "OWNER" : "owner",
   "DATABASE_USER" : "root",
-  "DATABASE_PASSWORD" : "123",
+  "DATABASE_PASSWORD" : "",
   "DATABASE_HOST" : "localhost",
-  "DATABASE_DATABASE" : "badbot",
-  "DBL_TOKEN" : ""
+  "DATABASE_DATABASE" : "",
+  "DBL_TOKEN" : "",
+  "DEFAULT_LANG": "en"
 }

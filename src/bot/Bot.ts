@@ -9,7 +9,7 @@ export class Bot {
     constructor(config: Config){
         this.config = config;
         this.client = new SapphireClient({ intents: ['DIRECT_MESSAGES', 'GUILDS', 'GUILD_MEMBERS', 'GUILD_MESSAGES', 'GUILD_MESSAGE_REACTIONS'],
-        loadMessageCommandListeners: true, logger: {"level" : LogLevel.Debug} });
+        loadMessageCommandListeners: true, logger: {"level" : LogLevel.Debug},  });
     }
 
     async init(){

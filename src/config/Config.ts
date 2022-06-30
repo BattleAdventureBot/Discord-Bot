@@ -6,6 +6,7 @@ export interface Config {
     DATABASE_HOST: string;
     DATABASE_DATABASE: string;
     DBL_TOKEN: string;
+    DEFAULT_LANG: string;
 }
 
 export const loadConfig = function(): Config {
